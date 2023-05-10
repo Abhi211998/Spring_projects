@@ -19,7 +19,7 @@
 				<form action="${pageContext.request.contextPath}/handle-product" method="post">
 				
 				
-				<input type="text" value="${product.id}" name="id">
+				<input type="hidden" value="${product.id}" name="id">
 				
 					<div class="form-group">
 						<label for="name">Product name</label> <input type="text"
